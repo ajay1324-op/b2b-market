@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+.navbarlinks{
+    display:flex;
+    column-gap: 20px;
+
+}
+.navbarlinks a{
+    text-decoration: none;
+    color: #333;
+}
+.navbarlinks a:hover{
+    text-decoration: underline;
+
+}
+.navbar-menu-toggle{
+    display: block;
+}
+.side-navbar{
+    background-color:#333;
+    width: 20%;
+    height: 100%;
+    position:fixed;
+    left: -60%;
+    padding: 1%;
+    color: white;
+    transition: 2s;
+}
+.side-navbarlink a{
+    text-decoration: none;
+    color: white;
+    top:0%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 10px;
+
+}
+.service-container-2 div{
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    padding: 10px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button{
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color:#333;
+    position: absolute;
+    top:50%;
+    left:18%;
+    border-radius: 10px;
+    border:none;
+}
+.most-wanted{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.most-wanted-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.most-wanted button{
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color:#333;
+    position: absolute;
+    top:50%;
+    left:18%;
+    border-radius: 10px;
+    border:none;
+}
+.news{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    border:solid black 3px ;
+}
+.news button{
+    margin-top: 10px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    margin-top:20px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: black;
+}
+.product-section{
+    color: black;
+    margin-top: 20px;
+
+}
+.product-search{    
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border:none;
+    background-color: transparent;
+    width: 100%;
+
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 20%;
+
+}
+.product-box img{
+    border-radius: 10px;
+}
+
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+form button {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.336);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color:rgba(0, 0, 0, 0.39); 
+}
+
+#responseMessage {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.418) ;
+}
